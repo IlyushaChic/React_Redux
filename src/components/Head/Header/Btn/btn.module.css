@@ -1,0 +1,25 @@
+.btn{
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    margin: 20px 0 ;
+    cursor: pointer;   
+    
+}
+
+@media screen and (max-width : 1040px) {
+    .btn{
+        border: 1px solid white;
+        border-radius: 7px;
+        font-size: 20px;
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 15px 20px;   
+        cursor: pointer;   
+    }
+}
+
+

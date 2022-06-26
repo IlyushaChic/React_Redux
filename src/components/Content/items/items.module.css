@@ -1,0 +1,21 @@
+.body{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;    
+   padding: 20px 10%; 
+}
+
+@media screen and (max-width : 1040px) {
+   .body{
+      flex-wrap: wrap;    
+      padding: 20px 0; 
+   }
+}
+
+@media screen and (min-width : 1240px) {
+   .body{   
+      align-items: center;
+      justify-content: center;
+      padding: 20px 10%; 
+   }
+}

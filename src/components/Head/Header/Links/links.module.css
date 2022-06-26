@@ -1,0 +1,25 @@
+.body{ 
+   display: flex;
+   justify-content: space-around;
+}
+
+.item{   
+   font-size: 18px;
+   color: #ffffff;
+   padding: 25px 30px;
+   margin: 15px  ;
+   height: fit-content;
+   width: fit-content;
+   cursor: pointer; 
+}
+
+@media screen and (max-width : 1040px) {
+   .item{   
+      font-size: 20px;
+      color: #ffffff;
+      padding: 20px 10px;
+      margin: 15px 0 0 0;     
+      cursor: pointer; 
+      font-size: 24px;
+   }   
+}
